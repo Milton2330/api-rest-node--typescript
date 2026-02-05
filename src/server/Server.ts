@@ -2,7 +2,7 @@ import express from 'express';
 
 const server = express();
 
-server.get('/', (req,res) => {
+server.post('/teste', (_,res) => {
 
     return res.send('Olá Dev!')
 });
